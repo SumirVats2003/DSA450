@@ -79,7 +79,6 @@ Node *removeDuplicates(Node *head)
 	}
 
 	Node *next = new Node(head->next->data);
-	next = current->next;
 
 	while (current != NULL && current->next != NULL)
 	{
